@@ -46,3 +46,25 @@ To find out whether or not this document is malicious, I opened it up in a malwa
 
 
 <img width="1457" height="556" alt="Screenshot 2026-11-12 103925" src="https://github.com/user-attachments/assets/53166a1c-3bfc-422c-b349-a0bc981a288a" />
+
+
+## Alert 3
+
+This alert was generated because it might be part of another phishing campaign.  The email that generated the alert claimed to be a crypto trading hiring assessment and contained a link.
+
+<img width="1487" height="486" alt="Screenshot 2026-11-12 115022" src="https://github.com/user-attachments/assets/d54f95f9-40ac-454c-b06e-8db0dde4cc48" />
+
+<img width="1400" height="546" alt="Screenshot 2026-11-13 083850" src="https://github.com/user-attachments/assets/9362c15f-6e38-4e6e-acd5-e8c3d0b41376" />
+
+
+I checked both the SMTP IP address and the link address on Virus Total and they both came up as malicious.
+
+<img width="1432" height="906" alt="Screenshot 2026-11-12 115131" src="https://github.com/user-attachments/assets/4a977541-9796-4cac-8962-abfd0275f9c8" />
+
+<img width="1417" height="747" alt="Screenshot 2026-11-12 120719" src="https://github.com/user-attachments/assets/b543a1dc-1171-428e-9c61-5b688a2d76b6" />
+
+Since this email was allowed to be delivered, we need to check if the link was clicked.  Looking at the browser history on the endpoint device, I could see that blockchainjobhub.com was accessed which means the user clicked the link and the device is likely infected.
+
+<img width="1432" height="435" alt="Screenshot 2026-11-12 120531" src="https://github.com/user-attachments/assets/c3756fdb-0ce9-45d1-9437-651c0da700a5" />
+
+
